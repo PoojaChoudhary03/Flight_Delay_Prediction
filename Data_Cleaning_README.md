@@ -13,13 +13,9 @@ rom the previous quick familiarization, I have the following information which w
 
 ## Priorities:
 
-- Define what I will consider a delayed flight
+- Define what I will consider a delayed flight.
 
-- Rename the Airlines abbreviation (OP_CARRIER) to their original name
-
-- Rename the airports (ORIGIN and DEST) with the original city names
-
-- Drop any irrelevant column
+- Drop any irrelevant column.
 
 # Things to look at:
 
@@ -43,6 +39,7 @@ The decision is to drop these 4 columns except WEATHER_DELAY.
 - There are quite some missing values in a few rows
 - There are a total of 25,045 rows with missing values.
 herefore I will just drop those rows which has missing values and keep on going with my analysis.
+
 ## Binary Classsification
 As I mentioned at the beginning of this document, this is a binary classification, 
 which means that I will run my models with the target being a column that I will engineer called ARR_DELAY. 
@@ -71,3 +68,4 @@ I set up a threshold at 75% on the correlation matrix and as you can see I got a
 - ACTUAL_ELAPSED_TIME with CRS_ELAPSED_TIME
 - DISTANCE with ACTUAL_ELAPSED_TIME
 And there is a possible multicollinearity with relationship 2, 3, and 4
+- Now we have new and reduced datframe with 1351282 rows and 20 columns.
