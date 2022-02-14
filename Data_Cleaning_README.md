@@ -1,5 +1,5 @@
 ## Mid_term_Project
-# Introduction
+### Introduction
 
 Before I start doing this notebook I will define what a delayed flight will be as this will be the principle used to drop or not some of the columns/features that come with this dataset, or to engineer others.
 
@@ -11,19 +11,19 @@ Furthermore, I will also handle this as a binary classification problem, with a 
 This is certainly a rather large datasets, so I will look into detail on each feature, missing values, and anything that won't be of use for the project and that can be dropped.
 rom the previous quick familiarization, I have the following information which will bee a guide to start woth the EDA
 
-# Priorities:
+### Priorities:
 
 - Define what I will consider a delayed flight.
 
 - Drop any irrelevant column.
 
-# Things to look at:
+### Things to look at:
 
 Parts of the US with the most delayed flights
 Is the data properly balanced? most probably it won't be, so I will need to address that
 will this be a binary classification or multiple classification problem?
 
-# DELAY REASONS
+### DELAY REASONS
 On this section I will deal with 5 columns at the same time that are related:
 
 - CARRIER_DELAY
@@ -40,7 +40,7 @@ The decision is to drop these 4 columns except WEATHER_DELAY.
 - There are a total of 25,045 rows with missing values.
 herefore I will just drop those rows which has missing values and keep on going with my analysis.
 
-# Binary Classsification
+### Binary Classsification
 As I mentioned at the beginning of this document, this is a binary classification, 
 which means that I will run my models with the target being a column that I will engineer called ARR_DELAY. 
 In this column there will be only two values (hence the name binary), 
@@ -57,7 +57,7 @@ Before this dataframe is saved I need to review the type of each columns and try
 The reason for this is because as we know a categorical variable is a variable whose values take on the value of labels and Machine learning algorithms and deep learning neural networks require that input and output variables are numbers.
 This means that categorical data must be encoded to numbers before we can use it to fit and evaluate a model
 
-# Collinearity Check
+### Collinearity Check
 Now with this reduced and cleaned dataframe it is time to look at how these features correlate to each others,
 and then I'll deal with the Categoricals.
 The missing features are the categorical ones so I will deal with those directly in the Modeling notebook. Here what I am going to do is reduce the possibility if collinearity.
