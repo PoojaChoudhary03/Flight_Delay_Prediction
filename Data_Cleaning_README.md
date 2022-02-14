@@ -1,5 +1,23 @@
 ## Mid_term_Project
+### Dataset: Commercial flight, passenger, and fuel consumption information as well as weather data transformed from Virtual Crossing API.
+
+The goal is to predict arrival delays of commercial flights. Often, there isn't much airlines can do to avoid the delays, therefore, they play an important role in both profits and loss of the airlines. It is critical for airlines to estimate flight delays as accurate as possible because the results can be applied to both, improvements in customer satisfaction and income of airline agencies.
+
+### Files
+- exploratory_analysis.ipynb: this file contains 10 questions we need to answer during the data exploration phase. They will help us to understand the data and become familiar with different variables.
+modeling.ipynb: this file contains instructions for modeling part of the project. We recommend to split modeling tasks into more notebooks.
+data_description.md: when you need to look for any information regarding specific attributes in the data this is the file to look in.
+sample_submission.csv: this file is the example of how the submission of the results should look like.
+Data
+We will be working with data from air travel industry. We will have four separate tables:
+
+- flights: The departure and arrival information about flights in US in years 2018 and 2019.
+- fuel_comsumption: The fuel comsumption of different airlines from years 2015-2019 aggregated per month.
+- passengers: The passenger totals on different routes from years 2015-2019 aggregated per month.
+- flights_test: The departure and arrival information about flights in US in January 2020. This table will be used for evaluation. For submission, we are required to predict delays on flights from first 7 days of 2020 (1st of January - 7th of January). We can find sample submission in file sample_submission.csv
 ### Introduction
+
+Now after accessing the database, we merged these 4 tables into one csv file and reduced a lot of rows and some columns using SQL. but there is still a lot more to do.
 
 Before I start doing this notebook I will define what a delayed flight will be as this will be the principle used to drop or not some of the columns/features that come with this dataset, or to engineer others.
 
