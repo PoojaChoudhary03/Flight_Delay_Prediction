@@ -21,4 +21,3 @@ Other features were engineered mainly to perform the EDA. Among those, some of t
 - Extracting the top destinations with average delays and arrivals
 - Calculating best weekday to travel in terms of delays (departures and arrivals)
 - Impact of late departure on arrival time (with difference between both)
-As with the cleaning and preprocessing, if you wish to see more detail about the feature engineering, refer to the respective notebooks.
