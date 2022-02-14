@@ -23,7 +23,7 @@ Parts of the US with the most delayed flights
 Is the data properly balanced? most probably it won't be, so I will need to address that
 will this be a binary classification or multiple classification problem?
 
-### DELAY REASONS
+### Delay Reasons
 On this section I will deal with 5 columns at the same time that are related:
 
 - CARRIER_DELAY
