@@ -20,7 +20,7 @@ Other features were engineered mainly to perform the EDA. Among those, some of t
 - Impact of late departure on arrival time (with difference between both) etc.
 
 ### EDA
-On the first EDA notebook, the few questions were addressesd, we tried to solve those questions and got the better understanding why the flights are getting delayed.
+On the EDA notebook, the few questions were addressesd, we tried to solve those questions and got the better understanding why the flights are getting delayed.
 
 ### Modelling
 Now that the data has been cleaned and gone through a thorough EDA process done in two stages, its time to start with the modeling.
