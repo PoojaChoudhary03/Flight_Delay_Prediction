@@ -24,7 +24,7 @@ On the EDA notebook, the few questions were addressesd, we tried to solve those 
 
 ### Modelling
 Now that the data has been cleaned and gone through a thorough EDA process done in two stages, its time to start with the modeling.
-I am not sure which Machine Learning algorithm will be the best for this.
+I am not sure which Machine Learning algorithm will be the best for this. But we tried some to get the better results.
 
 ### Summary & Recommendations
 
