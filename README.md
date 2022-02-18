@@ -6,7 +6,7 @@ According to data from the Bureau of Transportation Statistics (BTS) of the Unit
 
 The reasons for these delays vary a lot going from air congestion to weather conditions, mechanical problems, difficulties while boarding passengers, and simply the airlines inability to handle the demand given its capacity.
 
-In this project I will look at different ML algorithms including MLP Neural Networks to try to predict if a flight will be delayed or not before it is even announced on the departure boards. 
+In this project I will look at different ML algorithms to try to predict if a flight will be delayed or not before it is even announced on the departure boards. 
 ### Objective
 The objective of this project is very clear as described in the introduction: "Design a Model that predicts flight delays of first week of january,2020".
 
