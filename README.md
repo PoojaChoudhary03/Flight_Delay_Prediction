@@ -23,7 +23,7 @@ Other features were engineered mainly to perform the EDA. Among those, some of t
 On the EDA notebook, the few questions were addressesd, we tried to solve those questions and got the better understanding why the flights are getting delayed.
 
 ### Modelling
-Now that the data has been cleaned and gone through a thorough EDA process done in two stages, its time to start with the modeling.
+Now that the data has been cleaned and gone through a thorough EDA process, its time to start with the modeling.
 I am not sure which Machine Learning algorithm will be the best for this. But we tried Linear Regression and Randon Forest to get the better results.
 
 ### Summary & Recommendations
