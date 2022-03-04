@@ -1,4 +1,4 @@
-## Mid_term_Project
+## Predicting_Flight_Delays
 ### Introduction
 Flight delay has become a very important subject for air transportation all over the world because of the associated financial loses that the aviation industry is continuously going through.
 
