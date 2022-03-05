@@ -11,6 +11,7 @@ In this project I will look at different ML algorithms to try to predict if a fl
 The objective of this project is very clear as described in the introduction: "Design a Model that predicts flight delays of first week of january,2020".
 
 ### Data Preprocessing/Cleaning
+We got our data from Compass which was for the US flights from 2018-2019.
 Other features were engineered mainly to perform the EDA. Among those, some of the most relevant were:
 
 - Calculating the total number of flights and total numbers of delayed flights (from departure and arrivals separately) by airline
